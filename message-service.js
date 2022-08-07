@@ -21,7 +21,7 @@ export default class MessageService {
             }
         };
 
-        request.open("GET", "http://zipcode.rocks:8085/messages");
+        request.open("GET", `http://zipcode.rocks:8085/messages`);
 
         request.send();
         })
